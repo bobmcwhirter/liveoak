@@ -13,6 +13,7 @@ import org.jboss.msc.value.ImmediateValue;
 import org.vertx.java.core.Vertx;
 
 import java.io.File;
+import java.net.InetSocketAddress;
 import java.nio.file.Files;
 
 import static io.liveoak.spi.LiveOak.*;
@@ -105,7 +106,10 @@ public class LiveOakFactory {
                 .addInjection(tenancy.applicationsDirectoryInjector(), this.appsDir.getAbsolutePath())
                 .install();
 
-        this.serviceTarget.addService(name.append("servers"), new ServersBootstrappingService("localhost")).install();
+        ValueService<InetSocketAddress> socketBinding = new ValueService<InetSocketAddress>( new ImmediateValue<>( new InetSocketAddress( "localhost", 8080 )));
+        this.serviceTarget.addService(LiveOak.SOCKET_BINDING, socketBinding )
+                .install();
+        this.serviceTarget.addService(name.append("servers"), new ServersBootstrappingService()).install();
         this.serviceTarget.addService(name.append("codecs"), new CodecBootstrappingService()).install();
         this.serviceTarget.addService(name.append("client"), new ClientBootstrappingService()).install();
 
