@@ -18,7 +18,7 @@
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-core</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>net.iharder</groupId>
@@ -27,12 +27,12 @@
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-core-jaxrs</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-services</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>com.google.zxing</groupId>
@@ -41,48 +41,48 @@
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-model-api</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-model-mongo</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-audit-api</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-audit-mongo</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-audit-jboss-logging</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <!-- social -->
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-social-core</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-social-github</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-social-google</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-social-twitter</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.twitter4j</groupId>
@@ -91,13 +91,13 @@
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-social-facebook</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <!-- forms -->
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-forms-common-freemarker</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.freemarker</groupId>
@@ -106,48 +106,48 @@
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-forms-common-themes</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-account-api</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-account-freemarker</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-login-api</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-login-freemarker</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-js-adapter</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <!-- authentication api -->
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-authentication-api</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-authentication-model</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-authentication-picketlink</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.picketlink</groupId>
@@ -170,24 +170,24 @@
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-timer-api</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-timer-basic</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
 
         <!-- picketlink -->
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-picketlink-api</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-picketlink-realm</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.jboss.spec.javax.servlet</groupId>
@@ -230,12 +230,12 @@
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-export-import-api</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-export-import-impl</artifactId>
-            <version>${parent.project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>de.idyl</groupId>
